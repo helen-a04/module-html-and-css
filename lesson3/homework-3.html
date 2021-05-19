@@ -5,25 +5,32 @@
         <title>HOMEWORK-3</title>
     </head>
     <body>
+        <header></header>
         <main>
-            <form name="FORM" action="https://courses.krajn.by/lesson/3/params.php" method="post">
+            <form name="FORM" action="https://courses.krajn.by/lesson/3/params.php" method="post"></form>
+            <h1>Данные для доставки</h1>
             <label for="input">Имя</label>
             <input id="input" type="text"/>
             <label for="input">Фамилия</label>
             <input id="input" type="text"/>
             <label for="input">Адрес</label>
             <input id="input" type="text"/>
-            <input name="firstname" type="text" placeholder="введите имя"/>
-            <input name="lastname" type="text" placeholder="введите фамилию"/>
-            <input name="adress" type="text" placeholder="адрес доставки"/>
-            <label for="input">Enter text</label>
-            <input id="input" type="text" placeholder="text"/>
+           <h2>Выберите пиццу</h2>
             <select name="pizza">
                 <option value="cheese">4 сыра</option>
                 <option value="pepperoni">Пепперони</option>
-                <option value="sesons">4 сезонв</option>
+                <option value="sesons">4 сезона</option>
                 <option value="country">Кантри</option>
             </select>
+            <h2>Размер пиццы</h2>
+            <p>Маленькая<input name="size" value="one" type="radio"></p> 
+            <p>Средняя<input name="size" value="two" type="radio"></p>
+            <p>Большая<input name="size" value="three" type="radio"></p>
+            <h2>Соус добавлять?</h2>
+            <p>Да<input name="sauce" type="checkbox"></p>
+            <p>Нет<input name="sauce" type="checkbox"></p>
+            <h2>Комментарии</h2>
+            <textarea cols="50" rows="5"></textarea>
             </form>
         </main>
     </body>
