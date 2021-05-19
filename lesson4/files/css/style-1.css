@@ -1,0 +1,46 @@
+.size{
+    font-size: 10em;
+}
+
+.family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weigth{
+    font-weight: 200;
+}
+
+.style{
+    font-style: italic;
+}
+
+.heigth{
+    line-height: 10px;
+}
+
+.letter{
+    letter-spacing: 5px;
+}
+
+.wrap{
+    width: 10px;
+    white-space: nowrap;
+}
+
+.decoration-line{
+    text-decoration-line: none;
+}
+
+.align{
+    text-align: center;
+}
+
+.bg-color{
+    background-color: tomato;
+    color: teal;
+    background: thistle;
+}
+
+.bg-image{
+    background-image: url('https://prikolist.club/wp-content/uploads/2019/07/1-456.jpg');
+}

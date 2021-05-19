@@ -1,0 +1,42 @@
+*{
+    color: royalblue;
+}
+div{
+    background: rgba(236, 166, 245, 0.2);
+    font-weight: 700;
+
+    font-size: 30px;
+
+    /* ширина */
+    width: 70vh;
+
+    /* высота */
+    height: 60vh;
+
+    /* url фон*/
+    background: url('https://bugaga.ru/uploads/posts/2008-09/1222076190_1140708409_1.jpg');
+}
+
+.text{
+    width: 90%;
+    text-align: center;
+    font-size: 35px;
+}
+
+#text{
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+}
+
+[type]{
+    color: seagreen;
+}
+
+.cat a{
+    color: seashell;
+}
+
+.cat p{
+    background: slategray;
+}
