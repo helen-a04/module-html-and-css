@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 500px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.float img{
+    width: 200px;
+    /* Обтекание слева */
+   /* float: left; */
+   float: right;
+   /* Отключить обтекание */
+   /* float: none; */
+}
+
+.float .clear{
+    clear: none;
+}
+
+.pseudo .visites:visited{
+    color: brown;
+}
+
+.pseudo .link:link{
+    color: gold;
+}
+/* Важно */
+.pseudo .hover:hover{
+    color: green;
+}
+/*Чек бокс активен */
+.form [type=checkbox]:checked ~ .check{
+    color: greenyellow;
+}
+/* Инпут в фокусе */
+.form [type=text]:focus{
+    border: 3px solid green;
+}
+
+.practic label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid blue;
+
+}
+
+.practic input:checked ~ label{
+    background: blueviolet;
+}
+.practic input{
+    display: none;
+}
+
+.elements p:first-child{
+    color: crimson;
+}
+.elements p:last-child{
+    color: green;
+}
+.elements p:nth-child(3n){
+    color: darkorange;
+}
+
+.elements p:only-child{
+    font-size: 25px;
+    color: hotpink;
+}
+.elements p:not(.paragraph){
+    font-weight: bold;
+}
+
+.pseudo-elements{
+    padding: 30px;
+}
+.after{
+    width: 100px;
+    height: 60px;
+    background: hotpink;
+    position: relative;
+}
+.after::after{
+    content: '<';
+    width: 10px;
+    font-size: 20px;
+    background: gold;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: -10px;
+}
+.after::before{
+    content: '>';
+    width: 10%;
+    height: 10%;
+    background: gold;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: -10px;
+}
+
+.table tr td{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table>tr.row>td>p
+
+.table tr p{
+    color: hotpink;
+}
+.table .row p{
+    color: lawngreen !important;
+}
