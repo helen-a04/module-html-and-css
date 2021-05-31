@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.visibility{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    background-color: brown;
+    opacity: 0.5;
+    background: rgba(red, green, blue, 0.5
+    );
+    overflow: scroll;
+}*/
+.btn{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(107, 94, 94);
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn--error{
+    background: turquoise;
+}
