@@ -1,0 +1,10 @@
+.check{
+    display: inline-block;
+    position: relative;
+}
+.check:hover::after{
+    content: attr(подсказка);
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(247, 204, 225);
+}
