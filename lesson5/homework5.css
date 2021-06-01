@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+.progress_bar{
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.percent{
+    background-color:rgb(201, 157, 243);
+    display: inline-block;
+    height: 20px;
+    width: 100;
+    text-align: center;
+}
+
+.modal{
+    position: fixed;
+    margin: 20% 40%;
+    padding-left: 1%;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(214, 214, 214);
+    line-height: 2;
+}
+.btn{
+    margin-right: 7%;
+    float: right;
+
+
+}
