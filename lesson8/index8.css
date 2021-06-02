@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+html, body{
+    font-family: 'Dancing Script';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bk{
+    background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/14A82/production/_116301648_gettyimages-1071204136.jpg),
+                    url(https://cdnimg.rg.ru/img/content/178/22/40/kotik_d_850.jpg);
+                    
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.bk_text{
+    width: 40%;
+    border: 2px solid black;
+    font-size: 30px;
+    color: black;
+}
+.fit{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid black;
+    /*background: url(https://i.pinimg.com/474x/a0/1e/b9/a01eb920157d569f0c214bc48ef1dec4.jpg) no-repeat;*/
+}
+.fit img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.fit img:hover{
+    transform-origin: center;
+    transform: scale(1.5);
+}
+.font-icon{
+    font-size: 40px;
+    color: chartreuse;
+}
