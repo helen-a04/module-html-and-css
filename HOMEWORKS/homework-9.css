@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.text{
+    text-decoration-line: none;
+    color: black;
+}
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    align-content: space-between;
+}
+.item{
+    width: 475px;
+    height: 350px;  
+    text-align: center; 
+    object-fit: fill; 
+    opacity: 1;
+}
+.item:hover{
+    opacity: 0.6;
+}
+.i1{
+    background-image: url('image/holodd.jpg');
+}
+
+.i2{
+    background-image: url('image/avto.jpg');
+}
+
+
+.i3{
+    background-image: url('image/pylesos.jpg');
+}
+
+.i4{
+    background-image: url('image/avtomaslo.jpg');
+}
+.i5{
+    background-image: url('image/kolaski1.jpg');
+}
+.i6{
+    background-image: url('image/kolonky1.jpg');
+}
