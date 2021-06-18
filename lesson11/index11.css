@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 100vh;
+
+}
+
+/*.rotate{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    color: white;
+
+    transform: rotate(0deg) scale(2) translate(100px, 50px) skew(10deg, 50deg);
+    transform-origin: right top;
+}*/
+
+/*.perspectiva{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    transform: perspective(500px) rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+}*/
+
+/*.transition{
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+   transition: background-color 1s ease-in-out 0.5s;
+}
+.transition:hover{
+    width: 400px;
+    height: 400px;
+    background-color: indianred;
+} */
+
+.keyframe{
+    width: 400px;
+    height: 400px;
+    background-color: indianred;
+    animation: block 5s ease-in-out infinite;
+}
+@keyframes block{
+    25%{
+        width: 500px;
+        background-color: indigo;
+        border-radius: 25px 0 0 0;
+    }
+    50%{
+        width: 300px;
+        background-color: lemonchiffon;
+        border-radius: 0 25px 0 0 ;
+    }
+    75%{
+        width: 400px;
+        background-color: rgb(rgb(65, 124, 151), green, blue);
+        border-radius: 0 0 25px 0;
+    }
+    100%{
+        width: 600px;
+        background-color: rgb(rgb(142, 60, 145), green, blue);
+        border-radius: 0 0 0 25px;
+    }
+}
