@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.day{
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sky{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient( #e45d03, #F9D423);
+    animation: gradient 1s ease infinite;
+    box-shadow: inset 2px 3px 4px rgb(110, 96, 96);
+}
+.sea{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient( #1488CC, #2B32B2);
+    animation: gradient 1s ease-in-out infinite;
+    text-align: center;
+    box-shadow: inset 3px 4px 5px #000;
+}
+
+.sun{
+    width: 250px;
+    height: 150px;
+    border-radius: 70% 70% 0 0/100% 100% 0 0 ;
+    background: #fa4913;
+    box-shadow: 1px 2px 2px rgb(36, 33, 29);
+    position: absolute;
+    z-index: 5;
+    margin: auto;
+    top: 0;
+    bottom: 110px;
+    left: 0;
+    right: 0;
+}
+
+.rectangle{
+    width: 100px;
+    height: 10px;
+    background: #fa4913;
+    box-shadow: 1px 2px 2px rgb(36, 33, 29);
+
+    
+}
+.rec-1{
+    width: 150px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 510px;
+    left: 0;
+    right: 0;
+    transform: rotate(90deg);
+    animation: rec 1.5s infinite ease;
+}
+.rec-2{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 420px;
+    left: 200px;
+    right: 0;
+    transform: rotate(120deg);
+    animation: rec_1 1s infinite ease;
+}
+.rec-3{
+    width: 180px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 300px;
+    left: 400px;
+    right: 0;
+    transform: rotate(150deg);
+    animation: rec 1.5s infinite ease;
+}
+.rec-4{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 100px;
+    left: 370px;
+    right: 0;
+    transform: rotate(180deg);
+    animation: rec_1 1s infinite ease;
+}
+.rec-2__2{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 420px;
+    left: 0;
+    right: 200px;
+    transform: rotate(-120deg);
+    animation: rec 1.5s infinite ease;
+}
+.rec-3__2{
+    width: 180px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 300px;
+    left: 0;
+    right: 400px;
+    transform: rotate(-150deg);
+    animation: rec_1 1s infinite ease;
+}
+.rec-4__2{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 100px;
+    left: 0;
+    right: 370px;
+    transform: rotate(-180deg);
+    animation: rec 1.5s infinite ease;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@keyframes rec {
+    0%{
+        width: 3%;
+    }
+    30%{
+        width: 4%;
+    }
+    50%{
+        width: 5%;
+    }
+    70%{
+        width: 8%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+@keyframes rec_1 {
+    0%{
+        width: 3%;
+    }
+    30%{
+        width: 4%;
+    }
+    50%{
+        width: 5%;
+    }
+    70%{
+        width: 8%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+

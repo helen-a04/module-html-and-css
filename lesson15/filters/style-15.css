@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gradient{
+    width: 100%;
+    height: 50vh;
+}
+.linear{
+    background-image: linear-gradient(to left, rgb(36, 194, 206) 30%, #ff000f, rgba(39, 252, 74, 0.644), #000);
+}
+.radio{
+    background-image: radial-gradient(at 50% 0%, #000, rgb(104, 8, 117));
+}
+
+.shadow{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    /* X Y RADIUS BORDER*/
+    box-shadow: 5px 5px 10px 5px #ff000f;
+    box-shadow: inset 5px 5px 10px 5px #120a57;
+}
+.shadow:hover{
+    box-shadow: inset 5px 5px 50px 5px #120a57;
+}
+.shadow-text{
+    margin: 30px;
+    text-shadow: 10px 5px 15px #025049;
+}
+
+.filter{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filter img{
+    max-width: 50%;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+.brightness:hover{
+    filter: brightness(0.2s);
+}
+.contrast:hover{
+    filter: contrast(0.5);
+}
+
+.opacity:hover{
+    filter: opacity(0.5);
+}
+.saturate:hover{
+    filter: saturate(0.3);
+}
+.invert:hover{
+    filter: invert(3);
+}
+.sepia:hover{
+    filter: sepia(3);
+    cursor: help;
+}
+
+.blur:hover{
+    filter: blur(30px);
+    cursor: pointer;
+}
