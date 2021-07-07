@@ -367,7 +367,7 @@ img{
 }
 
 
-.programm__wrapper{
+.programms__wrapper{
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -375,19 +375,22 @@ img{
 
 
 
-.programm__left{
+.programms__left{
     text-align: right;
 }
 
-.programm__left .week{
+.programms__left .week{
     padding-right: 60px;
+    margin-bottom: 87px;
+    position: relative;
 }
 
-.programm__right .week{
+.programms__right .week{
     padding-left: 60px;
+    margin-top: 95px;
 }
 
-.programm__tree{
+.programms__tree{
     width: 6px;
     height: 100%;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
@@ -395,6 +398,17 @@ img{
 
 .week{
     max-width: 288px;
+    position: relative;
+}
+.week::before{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 48px;
 }
 
 .week__desc{
@@ -403,6 +417,9 @@ img{
     color: #ffffff;
     margin-top: 15px;
     
+}
+.mentors{
+    margin-top: 215px;
 }
 
 
@@ -636,6 +653,19 @@ img{
 
     .timer__item{
         margin-right: 0;
+    }
+
+    .programms__left .week{
+        padding-right: 20px;
+    }
+    .programms__right .week{
+        padding-left: 20px;
+    }
+    .week__desc{
+        font-size: 12px;
+    }
+    .week::before{
+        width: 12px;
     }
 }
 
