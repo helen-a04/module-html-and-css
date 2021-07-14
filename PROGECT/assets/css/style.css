@@ -27,7 +27,6 @@ header, main, footer{
     display: flex;
     align-items: center;
     object-fit: contain;
-    text-decoration: none;
 }
 .logo{
     padding-left: 40px;
@@ -56,7 +55,7 @@ header, main, footer{
 .section__1{
     padding-left: 50px;
     padding-right: 50px;
-    height: 1000px;
+    height: 750px;
 }
 .section__advantages{
     padding-left: 50px;
@@ -64,6 +63,11 @@ header, main, footer{
     width: 100%;
     height: 500px;
     background: rgba(51, 153, 10, 0.76);
+}
+.section__comments{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .principal--screen__wrapper{
     padding-top: 120px;
@@ -130,23 +134,35 @@ header, main, footer{
 }
 
 .zamena{
-    display: flex;
-    width: 600px;
-    height: 600px;
+    display: flexbox;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
 }
 .uslugi__wrapper{
     display: flex;
     margin-top: 70px;
 }
-
 .btn{
-    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     font-size: 20px;
     color: rgb(255, 177, 74);
     padding: 10px 30px;
     border-radius: 50px;
     border: 1px solid black;
     background: rgb(92, 91, 90);
+}
+.btn__data{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(255, 177, 74);
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background: rgba(93, 241, 79, 0.562);
+    display: block;
 }
 .devices{
     margin-top: 40px;
@@ -170,19 +186,21 @@ header, main, footer{
     justify-items: center;
 }
 .contacs{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .contacs__map{
-    position: absolute;
-    margin-top: 60px;
-    right: 10vh;
+    float: right;
+    align-items: center;
 }
 .contacs__item{
-    position: absolute;
-    margin-top: 60px;
-    left: 10vh;
-    color: #000;
+    height: 100px;
+    width: 290px;
+    margin-top: 50px;
+}
+.img__icon{
+    float: left;
 }
 .footer{
     width: 100%;
@@ -203,10 +221,41 @@ header, main, footer{
     align-items: center;
 }
 .sources__text{
+    padding: 5px;
     color: #fff;
     font-size: 10px;
     opacity: 0.5;
 }
 .sources__link{
     color: #fff;
+}
+.comments{
+    margin: 100px;
+    
+}
+.comments__img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+.comments__name{
+    font-weight: bold;
+    padding: 20px;
+}
+.data{
+    padding: 40px;
+}
+.data__area{
+    padding-top: 30px;
+}
+
+.burger-box{
+    display: none;
+    font-size: 30px;
+    margin-left: 30px;
+    color: #000000;
+}
+
+@media screen and (max-width: 1390px){
+    
 }
