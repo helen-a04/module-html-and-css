@@ -12,7 +12,9 @@
 <body>
     <header class="header">
         <div class="logo">
+            <a href="index.html">
             <img class="logo__icon" src="assets/image/icon/icon-lab.png" alt="">
+            </a>
         </div>
         <div class="header__wrapper">
             <nav class="menu">
@@ -24,13 +26,16 @@
                         <a class="menu__link" href="#devices__link">Устройства</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Отзывы</a>
+                        <a class="menu__link" href="comments.html">Отзывы</a>
                     </li>
                     <li class="menu__item">
                         <a class="menu__link" href="#contacts__link">Связаться с нами</a>
                     </li>
                 </ul>
             </nav>
+        </div>
+        <div class="burger-box">
+            &#9776;
         </div>
     </header>
     <main>
@@ -56,24 +61,24 @@
            <a name="uslugi__link"></a>
            <h2 class="title">Наши услуги</h2>
        <div class="uslugi__wrapper">
-            <div class="zamena ekran">
-                <p class="paragraf paragraf__zamena">Замена экрана</p>
+            <div class="zamena">
                 <img src="assets/image/zamena1-removebg-preview.png" alt="" width="200" height="220">
-                <!--<p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ea, perferendis velit magnam reiciendis</p>-->
+                <p class="paragraf paragraf__zamena">Замена экрана</p>
             </div>
-            <div class="zamena korpus">
-                <p class="paragraf paragraf__zamena">Замена корпуса</p>
+            <div class="zamena">
                 <img src="assets/image/zamena2.png" alt="" width="200" height="220">
+                <p class="paragraf paragraf__zamena">Замена корпуса</p>
             </div>
-            <div class="zamena dinamik">
-                <p class="paragraf paragraf__zamena">Замена динамика</p>
+            <div class="zamena">
                 <img src="assets/image/zamena3.png" alt="" width="200" height="220">
+                <p class="paragraf paragraf__zamena">Замена динамика</p>
             </div>
         </div>
-        <div class="btn--price">
-            <button class="btn">Прайс лист</button>
-        </div>
+        <form  class="btn-price" method="get" action="assets/price.xlsx">
+            <button  class="btn" type="submit">Прайс лист</button>
+            </form>
        </section>
+
        <section class="section">
            <a name="devices__link"></a>
            <h2 class="title title--center">Устройства, которые мы ремонтитруем</h2>
@@ -129,32 +134,33 @@
                 </div>
             </div>
        </section>
-       <section class="section">
+       <section class="section__1">
         <a name="contacts__link"></a>
         <h2 class="title title--center">Наши контакты</h2>
         <div class="contacs">
+            <div class="contacs__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69477.39421197312!2d27.51851095815973!3d53.894567849169746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1625077611338!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
             <div class="contacs__item">
-                <img src="assets/image/icon/contcts.svg" alt="" width="100px" height="100px">
+                <img class="img__icon" src="assets/image/icon/contcts.svg" alt="" width="100px" height="100px">
                 <p>+375 (35) 111-11-11</p>
                 <p>+375 (35) 111-11-11</p>
                 <p>+375 (35) 111-11-11</p>
             </div>
             <div class="contacs__item">
-                <img src="assets/image/icon/режим работы.svg" alt="" width="100px" height="100px">
+                <img class="img__icon" src="assets/image/icon/режим работы.svg" alt="" width="100px" height="100px">
                 <span>Пн-пт:</span>
                 <span>8:00 - 23:00</span>
                 <span>Сб - Вс:</span>
                 <span>10:00 - 20:00</span>
             </div>
             <div class="contacs__item">
-                <img src="assets/image/icon/adres.svg" alt="" width="100px" height="100px">
+                <img class="img__icon" src="assets/image/icon/adres.svg" alt="" width="100px" height="100px">
                 <p>ул. Минская, 1</p>
                 <p>ул. Набережная, 2</p>
                 <p>пр. Независимости, 3</p>
             </div>
-        <div class="contacs__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69477.39421197312!2d27.51851095815973!3d53.894567849169746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1625077611338!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        
         </div>
        </section>
     </main>
@@ -176,11 +182,6 @@
 </html>
 <!--Убрать подчеркивание списка
 Изменение цвета списка при наведении 
-Позиционирование поля ввода телефона
 Плавная смена цвета секшн
-ссылка на блок на странице 
-описание внутри блока
-невидимость параграфов
-отступ формы для звонка
 блюр фона
 -->
